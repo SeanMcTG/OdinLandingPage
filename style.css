@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 header {
@@ -37,29 +38,29 @@ ul {
     padding-bottom: 50px;
 }
 
-.heroleft {
+.hero-left {
     display: flex;
     flex-direction: column;
     padding-left: 150px;
     gap: 10px;
 }
 
-.heroheader {
+.hero-header {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 700;
 }
 
-.herodescription {
+.hero-description {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.heroright {
+.hero-right {
     padding-right: 150px;
 }
 
-.signupbutton {
+.sign-up-button {
     background-color: #3882F6;
     border: none;
     color: #E5E7EB;
