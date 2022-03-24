@@ -8,13 +8,14 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 25px;
-    padding-right: 150px;
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 100;
@@ -22,7 +23,6 @@ ul {
 }
 
 .logo {
-    padding-left: 150px;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
@@ -36,13 +36,14 @@ ul {
     gap: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-    gap: 10px;
+    gap: 25px;
 }
 
 .hero-header {
@@ -57,7 +58,8 @@ ul {
 }
 
 .hero-right {
-    padding-right: 150px;
+    height: 400px;
+    width: auto;
 }
 
 .sign-up-button {
@@ -68,6 +70,7 @@ ul {
     padding: 10px;
     text-align: center;
     width: 20%;
+    font-weight: bold;
 }
 
 .info-section {
@@ -100,6 +103,7 @@ ul {
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 30px;
+    object-fit: cover;
 }
 
 .info-subtext {
@@ -160,11 +164,17 @@ ul {
 }
 
 .call-to-action-button {
-    height: 30%;
-    width: 15%;
+    -webkit-appearance: none;
     text-align: center;
-    border: 1px;
+    border: 2px solid #E5E7EB;
     border-radius: 10px;
     border-color: #E5E7EB;
     background-color: #3882F6;
+    font-weight: bolder;
+    font-size: large;
+    color: #E5E7EB;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
